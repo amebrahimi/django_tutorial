@@ -14,3 +14,10 @@ pip install psycopg2-binary
 
 # Create superuser
 ` python manage.py createsuperuser`
+
+# Get rid of django pyling problems
+`pip install pylint-django`
+```
+"python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+]
